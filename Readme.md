@@ -10,10 +10,12 @@ I also used [that thing in swift](https://thatthinginswift.com) and [SwiftSingle
 
 ###How to import all code snippets to Xcode
 All Xcode code snippets exist as a `.plist` files in `~/Library/Developer/Xcode/UserData/CodeSnippets/`
-You can simply copy all code snippets from `plist` directory in this repo into this folder, restart Xcode and you should have all of them ready.
+You can simply copy all code snippets from `plist` directory in this repo into this folder, restart Xcode and you should have all of them ready to use.
 
 ####Convention
 I named all of snippets using scheme `Swift ...` and set all Completion Shortcuts to `swift-...` so each time you type `swift` in code editor you should see all snippets you can use in that place.
+
+![Xcode use Swift code snippets](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-use-code-snippet.gif)
 
 ###How to create your own snippets
 To add code snippet to Xcode show **Utilities** right panel and press `{}` button (*Show the Code Snippet library*) in lower panel.
