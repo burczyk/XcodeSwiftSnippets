@@ -8,9 +8,10 @@ for root, dirs, files in os.walk("."):
 			keys = xmldoc.getElementsByTagName('dict')[0].getElementsByTagName('key')
 			summary = ""
 			prefix = ""
+			file_short = file[:file.find('-')]
 			for key in keys:
 				if key.firstChild.nodeValue == 'IDECodeSnippetSummary':
 					summary = key.nextSibling.nextSibling.firstChild.nodeValue
 				elif key.firstChild.nodeValue == 'IDECodeSnippetCompletionPrefix':
 					prefix = key.nextSibling.nextSibling.firstChild.nodeValue
-			print "%s:[%s] %s" % (file, prefix, summary)
+			print "%s... :[%s] %s" % (file_short, prefix, summary)
