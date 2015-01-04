@@ -1,6 +1,6 @@
 #Xcode Swift Code Snippets
 
-I want to present you some convenient code snippets i gathered recently for Swift.
+I want to present you some convenient code snippets I gathered recently for Swift.
 As [Swift](https://developer.apple.com/swift/) becomes more and more popular, it gains [CocoaPods support](http://blog.cocoapods.org/Pod-Authors-Guide-to-CocoaPods-Frameworks/) and probably more and more people will be using it.
 
 ##Inspiration
