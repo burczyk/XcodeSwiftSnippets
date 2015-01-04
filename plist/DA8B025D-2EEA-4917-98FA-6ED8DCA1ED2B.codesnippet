@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-didbecomeactive</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSNotificationCenter.defaultCenter().addObserver(self, selector: "&lt;#selectorString#&gt;", name: UIApplicationDidBecomeActiveNotification, object: nil)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIApplicationDidBecomeActiveNotification observer snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift add DidBecomeActive notification observer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

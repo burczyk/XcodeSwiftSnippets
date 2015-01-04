@@ -1,0 +1,1 @@
+NSLocalizedString(<#key#>, value: <#value#>, comment: <#comment#>)

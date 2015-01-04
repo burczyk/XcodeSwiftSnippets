@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-sortarrayofstrings</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#arrayOfStrings#&gt;.sort({ (a, b) -&gt; Bool in
+    let comparisonResult = a.compare(b, options: NSStringCompareOptions.allZeros, range: Range&lt;String.Index&gt;(start: a.startIndex, end: a.endIndex), locale: NSLocale.currentLocale())
+    return comparisonResult == NSComparisonResult.OrderedAscending
+})</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B005E7A7-789D-43C2-873A-0DD8040EE2B8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift String Array locale-aware sorting</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

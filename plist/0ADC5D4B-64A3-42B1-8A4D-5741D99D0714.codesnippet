@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-uiremotenotification</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    //MARK: Remote Notifications
+    
+    // Move this line somewhere where your app starts
+//    UIApplication.sharedApplication().registerForRemoteNotifications()
+    
+    // Ask user for allowed notification types
+//    let settings = UIUserNotificationSettings(forTypes: .Alert | .Sound | .Badge, categories: nil)
+//    UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData!) {
+        println("Successfully egistered for Remote Notifications with token: \(deviceToken)")
+    }
+    
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError!) {
+        println("Registration for Remote Notifications failed with error: \(error)")
+    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        
+    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -&gt; Void) {
+        
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0ADC5D4B-64A3-42B1-8A4D-5741D99D0714</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIRemoteNotification registration and handling snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UIRemoteNotification</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

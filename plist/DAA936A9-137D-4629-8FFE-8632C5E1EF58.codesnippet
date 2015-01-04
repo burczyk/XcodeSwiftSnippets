@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-singleton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class var sharedInstance : &lt;#SingletonClass#&gt; {
+    struct Static {
+        static let instance : &lt;#SingletonClass#&gt; = &lt;#SingletonClass#&gt;()
+    }
+    return Static.instance
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DAA936A9-137D-4629-8FFE-8632C5E1EF58</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Singleton pattern using nested struct in Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Singleton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

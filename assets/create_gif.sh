@@ -1,0 +1,2 @@
+ffmpeg -i xcode-add-code-snippet.mov -vf scale=750:-1 -r 10 -f image2pipe -vcodec ppm - | convert -delay 5 -loop 0 - xcode-add-code-snippet.gif
+#http://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality
