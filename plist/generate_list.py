@@ -6,6 +6,11 @@ for root, dirs, files in os.walk("."):
 		if file.endswith('.codesnippet'):
 			xmldoc = minidom.parse(file)
 			keys = xmldoc.getElementsByTagName('dict')[0].getElementsByTagName('key')
+			summary = ""
+			prefix = ""
 			for key in keys:
 				if key.firstChild.nodeValue == 'IDECodeSnippetSummary':
-					print file, key.nextSibling.nextSibling.firstChild.nodeValue
+					summary = key.nextSibling.nextSibling.firstChild.nodeValue
+				elif key.firstChild.nodeValue == 'IDECodeSnippetCompletionPrefix':
+					prefix = key.nextSibling.nextSibling.firstChild.nodeValue
+			print "%s:[%s] %s" % (file, prefix, summary)
