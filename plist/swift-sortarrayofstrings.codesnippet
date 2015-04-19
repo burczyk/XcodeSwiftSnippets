@@ -17,6 +17,8 @@
 	<string>B005E7A7-789D-43C2-873A-0DD8040EE2B8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift String Array locale-aware sorting</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Swift String Array locale-aware sorting</string>
 	<key>IDECodeSnippetUserSnippet</key>

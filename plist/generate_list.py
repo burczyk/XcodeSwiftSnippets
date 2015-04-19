@@ -14,4 +14,5 @@ for root, dirs, files in os.walk("."):
 					summary = key.nextSibling.nextSibling.firstChild.nodeValue
 				elif key.firstChild.nodeValue == 'IDECodeSnippetCompletionPrefix':
 					prefix = key.nextSibling.nextSibling.firstChild.nodeValue
-			print "%s... :[%s] %s" % (file_short, prefix, summary)
+			# print "[%s] %s" % (prefix, summary)
+			print '{0: <36} {1}'.format(prefix, summary)

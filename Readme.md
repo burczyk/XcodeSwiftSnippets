@@ -32,24 +32,25 @@ If you want to add this nice placeholder in rounded blue rect simply put it betw
 Currently existing snippets (I hope they will be updated on a regular basis with your help :) ):
 
 ```
-0ADC5D4B... :[swift-uiremotenotification] UIRemoteNotification registration and handling snippet for Swift
-1528A53D... :[swift-closureoptionaltypealias] Optional closure typealiast with arguments and return value snippet for Swift
-183B54E8... :[swift-uitableviewdelegate] UITableViewDelegate snippet for Swift
-3165F25A... :[swift-message] MFMessageComposeViewController snippet for Swift
-380DBCD1... :[swift-uitableviewdatasource] UITableViewDataSource snippet for Swift
-42AA2BDB... :[swift-closuretypealias] Closure typealias with arguments and return value snippet for Swift
-449FB7DE... :[swift-mail] MFMailComposeViewController snippet for Swift
-5871FA36... :[swift-uicollectionviewdatasource] UICollectionViewDataSource snippet for Swift
-695424DE... :[swift-uicollectionviewdelegate] UICollectionViewDelegate snippet for Swift
-731C3867... :[swift-dispatchasync] GCD dispatch_async snippet for Swift
-7D773810... :[swift-uiviewconvrollerlifecycle] UIViewController lifecycle snippet for Swift
-B005E7A7... :[swift-sortarrayofstrings] 
-DA8B025D... :[swift-didbecomeactive] UIApplicationDidBecomeActiveNotification observer snippet for Swift
-DAA936A9... :[swift-singleton] Singleton pattern using nested struct in Swift
-E3AE2218... :[swift-documentdirectory] Document directory path snippet for Swift
-E772ABB6... :[swift-dispatchafter] GCD dispatch_after snippet for Swift
-E8847AF3... :[swift-dispatchmain] GCD dispatch_async on main queue snippet for Swift
-F60D36B3... :[swift-nslocalizedstring] NSLocalizedString function snippet for Swift
+swift-closureoptionaltypealias       Optional closure typealiast with arguments and return value snippet for Swift
+swift-closuretypealias               Closure typealias with arguments and return value snippet for Swift
+swift-didbecomeactive                UIApplicationDidBecomeActiveNotification observer snippet for Swift
+swift-dispatchafter                  GCD dispatch_after snippet for Swift
+swift-dispatchasync                  GCD dispatch_async snippet for Swift
+swift-dispatchmain                   GCD dispatch_async on main queue snippet for Swift
+swift-documentdirectory              Document directory path snippet for Swift
+swift-mail                           MFMailComposeViewController snippet for Swift
+swift-message                        MFMessageComposeViewController snippet for Swift
+swift-nslocalizedstring              NSLocalizedString function snippet for Swift
+swift-singleton-new                  Singleton pattern for Swift 1.2 using class constant
+swift-singleton                      Singleton pattern using nested struct in Swift (from Swift 1.2 you can use newer version)
+swift-sortarrayofstrings             Swift String Array locale-aware sorting
+swift-uicollectionviewdatasource     UICollectionViewDataSource snippet for Swift
+swift-uicollectionviewdelegate       UICollectionViewDelegate snippet for Swift
+swift-uiremotenotification           UIRemoteNotification registration and handling snippet for Swift
+swift-uitableviewdatasource          UITableViewDataSource snippet for Swift
+swift-uitableviewdelegate            UITableViewDelegate snippet for Swift
+swift-uiviewconvrollerlifecycle      UIViewController lifecycle snippet for Swift
 ```
 
 
