@@ -17,13 +17,13 @@ Note: Create the folder if the folder doesn't exist already. It is created by Xc
 ##Usage
 I named all of snippets using scheme `Swift ...` and set all Completion Shortcuts to `swift-...` so each time you type `swift` in code editor you should see all snippets you can use in that place.
 
-![Xcode use Swift code snippets](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-use-code-snippet.gif)
+![Xcode use Swift code snippets](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-use-code-snippet-2.gif)
 
 ##How to create your own snippets
 To add code snippet to Xcode show **Utilities** right panel and press `{}` button (*Show the Code Snippet library*) in lower panel.
 Then select a code you would like to treat as a snippet, press and hold a left mouse button for a while and drag whole selection to the right panel (if you drag to early you'll probably only deselect text; you can also try dragging from a whitespace instead of the letter).
 
-![Xcode create code snippet](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-add-code-snippet.gif)
+![Xcode create code snippet](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-add-code-snippet-2.gif)
 
 ###Placeholder tokens
 If you want to add this nice placeholder in rounded blue rect simply put it between `<#` and `#>` and it will be transformed in both editor and final snippet.
