@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(&lt;#delay#&gt; * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) { [unowned self]() -&gt; Void in
+	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(&lt;#delay#&gt; * Double(NSEC_PER_SEC))), dispatch_get_main_queue()) {() -&gt; Void in
     &lt;#doSth#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
