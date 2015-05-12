@@ -40,6 +40,7 @@ swift-dispatchasync                  GCD dispatch_async snippet for Swift
 swift-dispatchmain                   GCD dispatch_async on main queue snippet for Swift
 swift-documentdirectory              Document directory path snippet for Swift
 swift-mail                           MFMailComposeViewController snippet for Swift
+swift-mark                           Mark snippet for Swift
 swift-message                        MFMessageComposeViewController snippet for Swift
 swift-nslocalizedstring              NSLocalizedString function snippet for Swift
 swift-singleton-new                  Singleton pattern for Swift 1.2 using class constant
