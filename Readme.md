@@ -14,6 +14,10 @@ You can simply copy all code snippets from `plist` directory in this repo into t
 
 Note: Create the folder if the folder doesn't exist already. It is created by Xcode when user adds their first cusom snippet.
 
+##Installation by Alcatraz plugin
+Thanks to [CodeEagle](https://github.com/CodeEagle) and his Alcatraz plugin [SwiftCodeSnippets](https://github.com/CodeEagle/SwiftCodeSnippets) plugin you can import all snippets to Xcode automatically.
+Simply install [Alcatraz](http://alcatraz.io), press `⇧⌘9` search for `SwiftCodeSnippets` and install all of them at once.
+
 ##Usage
 I named all of snippets using scheme `Swift ...` and set all Completion Shortcuts to `swift-...` so each time you type `swift` in code editor you should see all snippets you can use in that place.
 
