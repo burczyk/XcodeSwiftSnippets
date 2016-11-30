@@ -1,6 +1,7 @@
-dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { () -> Void in
+  DispatchQueue.global(qos: .default).async {
+    print("background queue")
     
-    dispatch_async(dispatch_get_main_queue(), { () -> Void in
-        
-    })
-})
+    DispatchQueue.main.async {
+      print("main queue")
+    }
+  }

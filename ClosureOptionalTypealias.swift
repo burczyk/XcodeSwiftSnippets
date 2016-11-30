@@ -1,1 +1,1 @@
-typealias <#ClosureName#> = ((<#arguments#>) -> <#return value#>)?
+typealias <#ClosureName#> = ((_ <#arguments#>) -> <#return value#>)?

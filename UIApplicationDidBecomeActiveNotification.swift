@@ -1,1 +1,1 @@
-NSNotificationCenter.defaultCenter().addObserver(self, selector: "<#selectorString#>", name: UIApplicationDidBecomeActiveNotification, object: nil)
+ NotificationCenter.default.addObserver(self, selector: "<#selectorString#>", name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)

@@ -1,2 +1,3 @@
-let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true).first as! String
-let documentsDirectoryURL = NSURL.fileURLWithPath(path)
+if let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first {
+  let documentsDirectoryURL = NSURL.fileURL(withPath: path)
+}
