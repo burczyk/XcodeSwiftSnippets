@@ -9,12 +9,13 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { () -&gt; Void in
-    
-    dispatch_async(dispatch_get_main_queue(), { () -&gt; Void in
-        
-    })
-})</string>
+	<string>DispatchQueue.global(qos: .default).async {
+    	 print("background queue")
+
+        DispatchQueue.main.async {
+      		print("main queue")
+    	}
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>731C3867-9874-4559-8350-5F2B054A5AF9</string>
 	<key>IDECodeSnippetLanguage</key>

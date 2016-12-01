@@ -1,11 +1,11 @@
     //MARK: Remote Notifications
     
     // Move this line somewhere where your app starts
-//    UIApplication.sharedApplication().registerForRemoteNotifications()
+//    UIApplication.shared.registerForRemoteNotifications()
     
     // Ask user for allowed notification types
-//    let settings = UIUserNotificationSettings(forTypes: .Alert | .Sound | .Badge, categories: nil)
-//    UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+//    let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+//    UIApplication.shared.registerUserNotificationSettings(settings)
     
     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
         println("Successfully egistered for Remote Notifications with token: \(deviceToken)")

@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typealias &lt;#ClosureName#&gt; = (&lt;#arguments#&gt;) -&gt; &lt;#return value#&gt;</string>
+	<string>typealias &lt;#ClosureName#&gt; = (_ &lt;#arguments#&gt;) -&gt; &lt;#return value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>42AA2BDB-AA64-4260-9726-A72C20E79FBB</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLocalizedString(&lt;#key#&gt;, value: &lt;#value#&gt;, comment: &lt;#comment#&gt;)</string>
+	<string>NSLocalizedString(&lt;#key#&gt;, comment: &lt;#comment#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F60D36B3-5FE0-4C44-92AD-E33658E5AF89</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -7,11 +7,15 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let alert = UIAlertController(title: title, message: message, preferredStyle: .Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action) -&gt; Void in
-            alert.dismissViewControllerAnimated(true, completion: nil)
-        }))
-        presentingViewController?.presentViewController(alert, animated: true, completion: nil)</string>
+	<string>let alert = UIAlertController(title: &lt;#title#&gt;, message: &lt;#message#&gt;, preferredStyle: .alert)
+			alert.addAction(UIAlertAction(title: "", style: .default, handler: { (action) in
+			  alert.dismiss(animated: &lt;#Bool#&gt;, completion: {
+			    &lt;#code#&gt;
+			  })
+	}))
+  
+	presentViewController(alert, animated: true, completion: nil)</string>
+
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3141D76F-5123-4B60-8D39-8AD76BF37BF4</string>
 	<key>IDECodeSnippetLanguage</key>

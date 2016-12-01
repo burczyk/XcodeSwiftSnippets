@@ -9,8 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true).first as String
-let documentsDirectoryURL = NSURL.fileURLWithPath(path)</string>
+	<string>if let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first {
+		let documentsDirectoryURL = NSURL.fileURL(withPath: path)
+	}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E3AE2218-F56E-45BE-909F-1EC5DE83F3AE</string>
 	<key>IDECodeSnippetLanguage</key>

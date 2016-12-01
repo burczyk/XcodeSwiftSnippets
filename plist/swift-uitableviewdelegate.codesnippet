@@ -11,27 +11,27 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    //MARK: UITableViewDelegate
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
     
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
         
     }
     
-    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
         
     }
     
-    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -&gt; CGFloat {
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -&gt; CGFloat {
         
     }
     
-    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
         
     }
     
-    func tableView(tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
         
     }</string>
 	<key>IDECodeSnippetIdentifier</key>

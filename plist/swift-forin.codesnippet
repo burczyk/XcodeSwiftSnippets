@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; as &lt;#Type#&gt; {
+	<string>for case let &lt;#object#&gt; in &lt;#collection#&gt; as [&lt;#Type#&gt;] {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

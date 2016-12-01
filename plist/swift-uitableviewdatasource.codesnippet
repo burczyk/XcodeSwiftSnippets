@@ -11,15 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    //MARK: UITableViewDataSource
 
-    func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
         return &lt;#numberOfSections#&gt;
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
         return &lt;#numberOfRows#&gt;
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath) as UITableViewCell
         configureCell(cell, forRowAtIndexPath: indexPath)
         return cell

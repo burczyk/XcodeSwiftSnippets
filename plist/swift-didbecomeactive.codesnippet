@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSNotificationCenter.defaultCenter().addObserver(self, selector: "&lt;#selectorString#&gt;", name: UIApplicationDidBecomeActiveNotification, object: nil)</string>
+	<string>NotificationCenter.default.addObserver(self, selector: "&lt;#selectorString#&gt;", name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
 	<key>IDECodeSnippetLanguage</key>
