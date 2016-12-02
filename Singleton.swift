@@ -1,1 +1,0 @@
-static let sharedInstance : <#SingletonClass#> = <#SingletonClass#>()
