@@ -9,30 +9,30 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //MARK: UICollectionViewDataSource
-    
-    func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
-        return &lt;#numberOfSections#&gt;
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
-        return &lt;#numberOfItems#&gt;
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath) as! UICollectionViewCell
-        configureCell(cell, forItemAtIndexPath: indexPath)
-        return cell
-    }
-    
-    func configureCell(cell: UICollectionViewCell, forItemAtIndexPath: NSIndexPath) {
-        
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -&gt; UICollectionReusableView {
-        let view =  collectionView.dequeueReusableSupplementaryViewOfKind(UICollectionElementKindSectionHeader, withReuseIdentifier: &lt;#identifier#&gt;, forIndexPath: indexPath) as UIView
-        return view
-    }</string>
+	<string>        //MARK: UICollectionViewDataSource
+
+        func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
+            return &lt;#numberOfSections#&gt;
+        }
+
+        func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+            return &lt;#numberOfItems#&gt;
+        }
+
+        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &lt;#identifier#&gt;, for: indexPath)
+            configureCell(cell: cell, forItemAt: indexPath)
+            return cell
+        }
+
+        func configureCell(cell: UICollectionViewCell, forItemAt indexPath: NSIndexPath) {
+
+        }
+
+        func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -&gt; UICollectionReusableView {
+            let view =  collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: &lt;#identifier#&gt;, for: indexPath) as UIView
+            return view
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5871FA36-D43A-4505-897B-B2D54B4C611B</string>
 	<key>IDECodeSnippetLanguage</key>

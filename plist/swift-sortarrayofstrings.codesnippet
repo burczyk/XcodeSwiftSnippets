@@ -9,10 +9,10 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#arrayOfStrings#&gt;.sort({ (a, b) -&gt; Bool in
-    let comparisonResult = a.compare(b, options: NSStringCompareOptions.allZeros, range: Range&lt;String.Index&gt;(start: a.startIndex, end: a.endIndex), locale: NSLocale.currentLocale())
-    return comparisonResult == NSComparisonResult.OrderedAscending
-})</string>
+	<string>&lt;#arrayOfStrings#&gt;.sorted { (a, b) -&gt; Bool in
+            let comparisonResult = a.compare(b, options: [], range: a.range(of: a), locale: Locale.current)
+            return comparisonResult == .orderedSame
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B005E7A7-789D-43C2-873A-0DD8040EE2B8</string>
 	<key>IDECodeSnippetLanguage</key>

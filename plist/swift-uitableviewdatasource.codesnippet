@@ -9,25 +9,25 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //MARK: UITableViewDataSource
+	<string>        //MARK: UITableViewDataSource
 
-    func numberOfSections(in tableView: UITableView) -&gt; Int {
-        return &lt;#numberOfSections#&gt;
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
-        return &lt;#numberOfRows#&gt;
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#identifier#&gt;, forIndexPath: indexPath) as UITableViewCell
-        configureCell(cell, forRowAtIndexPath: indexPath)
-        return cell
-    }
-    
-    func configureCell(cell: UITableViewCell, forRowAtIndexPath: NSIndexPath) {
-        
-    }</string>
+        func numberOfSections(in tableView: UITableView) -&gt; Int {
+            return &lt;#numberOfSections#&gt;
+        }
+
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+            return &lt;#numberOfRows#&gt;
+        }
+
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
+            configureCell(cell: cell, forRowAt: indexPath)
+            return cell
+        }
+
+        func configureCell(cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>380DBCD1-ECFB-4A8C-B7B2-DDE628A540E3</string>
 	<key>IDECodeSnippetLanguage</key>

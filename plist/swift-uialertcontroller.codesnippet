@@ -15,7 +15,6 @@
 	}))
   
 	presentViewController(alert, animated: true, completion: nil)</string>
-
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3141D76F-5123-4B60-8D39-8AD76BF37BF4</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -25,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

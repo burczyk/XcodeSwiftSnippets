@@ -10,11 +10,10 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.global(qos: .default).async {
-    	 print("background queue")
-
-        DispatchQueue.main.async {
-      		print("main queue")
-    	}
+    &lt;#asynchronous work#&gt;
+    DispatchQueue.main.async {
+        &lt;#callback#&gt;
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>731C3867-9874-4559-8350-5F2B054A5AF9</string>

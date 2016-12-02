@@ -19,11 +19,11 @@
 //	  UIApplication.shared.registerUserNotificationSettings(settings)
     
     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
-        println("Successfully egistered for Remote Notifications with token: \(deviceToken)")
+        print("Successfully egistered for Remote Notifications with token: \(deviceToken)")
     }
     
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
-        println("Registration for Remote Notifications failed with error: \(error)")
+        print("Registration for Remote Notifications failed with error: \(error)")
     }
     
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
