@@ -1,35 +1,35 @@
-#Xcode Swift Code Snippets
+# Xcode Swift Code Snippets
 
 I want to present you some convenient code snippets I gathered for [Swift](https://developer.apple.com/swift/).
 
-###All snippets are updated to **Swift 3** ❤️
+### All snippets are updated to **Swift 3** ❤️
 
-##Inspiration
+## Inspiration
 I was inspired by Matt Thompson's [Xcode-Snippets](https://github.com/mattt/Xcode-Snippets) article and GitHub repo but I haven't found anything similar for Swift.
 
 I also used [that thing in swift](https://thatthinginswift.com) and [SwiftSingleton](https://github.com/hpique/SwiftSingleton) as a sample implementations.
 
-##How to import all code snippets to Xcode
+## How to import all code snippets to Xcode
 All Xcode code snippets exist as a `.plist` files in `~/Library/Developer/Xcode/UserData/CodeSnippets/`
 You can simply copy all code snippets (`.codesnippet`) into this folder, restart Xcode and you should have all of them ready to use.
 
 Note: Create the folder if it doesn't exist already. It is created by Xcode when user adds his first custom snippet.
 
-##Usage
+## Usage
 I named all of snippets using scheme `Swift ...` and set all Completion Shortcuts to `swift-...` so each time you type `swift` in code editor you should see all snippets you can use in that place.
 
 ![Xcode use Swift code snippets](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-use-code-snippet-2.gif)
 
-##How to create your own snippets
+## How to create your own snippets
 To add code snippet to Xcode expand **Utilities** right panel and press `{}` button (*Show the Code Snippet library*) in lower panel.
 Then select a code you would like to treat as a snippet, press and hold a left mouse button for a while and drag whole selection to the right panel (if you drag to early you'll probably only deselect text; you can also try dragging from a whitespace instead of the letter).
 
 ![Xcode create code snippet](https://raw.githubusercontent.com/burczyk/XcodeSwiftSnippets/master/assets/xcode-add-code-snippet-2.gif)
 
-###Placeholder tokens
+### Placeholder tokens
 If you want to add this nice placeholder in rounded blue rect simply put it between `<#` and `#>` and it will be transformed in both editor and final snippet.
 
-##Snippets
+## Snippets
 Currently existing snippets (I hope they will be updated on a regular basis with your help :) ):
 
 ```
@@ -57,9 +57,9 @@ swift-weak                           weakify self in closure
 ```
 
 
-##More snippets?
+## More snippets?
 This is a good start but I encourage you to create your own snippets or correct existing ones and create Pull Requests. Please provide plain snippets as `.plist` files so they can be easily imported.
 You can use `plist/generate_list.py` script to generate snippets list by running: `python generate_list.py`.
 
-##Do you like it?
+## Do you like it?
 Do you like this repo? Share it on Twitter, Facebook, Google+ or anywhere you like so that more of us can use it and help. Thanks!
