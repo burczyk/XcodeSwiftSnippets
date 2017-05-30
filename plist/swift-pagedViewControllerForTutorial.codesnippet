@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-pagedViewControllerForTutorial</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class ViewController: UIViewController, UIPageViewControllerDataSource {
+
+    var pageViewController: UIPageViewController!
+    var pageTitles: [String] = ["&lt;#firstPageLabel#&gt;",
+        "&lt;#secondPageLabel#&gt;"]
+    var pageImages: [String] = ["&lt;#firstIamgeNameString#&gt;","&lt;#secondImageNameString#&gt;"]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        pageViewController = storyboard?.instantiateViewControllerWithIdentifier("PageViewController") as! UIPageViewController
+        pageViewController.dataSource = self
+        
+        let startVC = viewControllerAtIndex(0)! as ContentViewController
+        let viewControllers = [startVC]
+        
+        pageViewController.setViewControllers(viewControllers, direction: .Forward, animated: true, completion: nil)
+        
+        addChildViewController(pageViewController)
+        view.addSubview(pageViewController.view)
+        
+    }
+    
+    func viewControllerAtIndex(index: Int) -&gt; ContentViewController? {
+        if (self.pageTitles.count == 0 || index &gt;= self.pageTitles.count) {
+            return ContentViewController()
+        }
+        
+        let viewController = self.storyboard?.instantiateViewControllerWithIdentifier("&lt;#ContentViewControllerName#&gt;") as! &lt;#ContentViewName#&gt;
+        viewController.imageFile = pageImages[index] as String
+        viewController.titleText = pageTitles[index] as String
+        viewController.pageIndex = index
+        
+        return viewController
+    }
+    
+    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -&gt; UIViewController? {
+        let vc = viewController as! &lt;#ContentViewName#&gt;
+        var index = vc.pageIndex as Int
+        
+        if (index == 0 || index == NSNotFound) {
+            return nil
+        }
+        index--
+        
+        return self.viewControllerAtIndex(index)
+    }
+    
+    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -&gt; UIViewController? {
+        let vc = viewController as! &lt;#ContentViewName#&gt;
+        var index = vc.pageIndex as Int
+        
+        if index == NSNotFound {
+            return nil
+        }
+        
+        index++
+        
+        if (index == pageTitles.count) {
+            return nil
+        }
+        
+        return self.viewControllerAtIndex(index)
+    }
+
+    func presentationIndexForPageViewController(pageViewController: UIPageViewController) -&gt; Int {
+        return 0 as Int
+    }
+    
+    func presentationCountForPageViewController(pageViewController: UIPageViewController) -&gt; Int {
+        return pageTitles.count
+    }
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EC97EB3A-2484-47DB-8BCD-0FBE17EC439B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ViewController class for making a paged view for tutorial screens. Requires</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift-pagedViewControllerForTutorial</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

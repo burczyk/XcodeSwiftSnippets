@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pagedViewContentViewControllerForTutorial</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+
+class ContentViewController: UIViewController {
+
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var pageIndex: Int!
+    var titleText: String!
+    var imageFile: String!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        imageView.image = UIImage(named: self.imageFile)
+        titleLabel.text = titleText        
+    }
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6E6E0735-2746-46F5-A4AD-C17484DC57D9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIViewController for a tutorial page view. With a Label at the top and a UIImageView underneath it. Still requires a UIView in IB linked to two IBOutlets in this code.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift-pagedViewContentViewControllerForTutorial</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
