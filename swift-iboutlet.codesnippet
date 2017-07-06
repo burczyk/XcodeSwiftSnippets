@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>IBO</string>
+	<string>swift-ibo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -14,6 +14,8 @@
 	<string>F0FAF3C5-71F4-4009-B09B-15FB3AE62C60</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Stub out IBOutlet</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>IBOutlet</string>
 	<key>IDECodeSnippetUserSnippet</key>

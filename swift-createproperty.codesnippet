@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prop</string>
+	<string>swift-prop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -18,6 +18,8 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
+	<key>IDECodeSnippetSummary</key>
+	<string>Auto-Create property stub</string>
 	<string>AutoProperty</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
