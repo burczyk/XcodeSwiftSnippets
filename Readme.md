@@ -35,18 +35,21 @@ Currently existing snippets (I hope they will be updated on a regular basis with
 ```
 swift-closureoptionaltypealias       Optional closure typealiast with arguments and return value snippet for Swift
 swift-closuretypealias               Closure typealias with arguments and return value snippet for Swift
+swift-prop                           Auto-Create property stub
 swift-didbecomeactive                UIApplicationDidBecomeActiveNotification observer snippet for Swift
 swift-dispatchafter                  GCD dispatch_after snippet for Swift
 swift-dispatchasync                  GCD dispatch_async snippet for Swift
 swift-dispatchmain                   GCD dispatch_async on main queue snippet for Swift
 swift-documentdirectory              Document directory path snippet for Swift
 swift-forin                          for-in loop that casts objects inline
+swift-iba                            Create IBAction method stub
+swift-ibo                            Stub out IBOutlet
 swift-mail                           MFMailComposeViewController snippet for Swift
 swift-mark                           Divider label for separating code into sections
 swift-message                        MFMessageComposeViewController snippet for Swift
 swift-nslocalizedstring              NSLocalizedString function snippet for Swift
 swift-singleton                      Singleton pattern for Swift
-swift-sortarrayofstrings             Swift String Array locale-aware sorting             
+swift-sortarrayofstrings             Swift String Array locale-aware sorting
 swift-uicollectionviewdatasource     UICollectionViewDataSource snippet for Swift
 swift-uicollectionviewdelegate       UICollectionViewDelegate snippet for Swift
 swift-uiremotenotification           UIRemoteNotification registration and handling snippet for Swift
