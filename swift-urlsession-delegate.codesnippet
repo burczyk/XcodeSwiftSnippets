@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-urlsession-delegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)
+let task = session.dataTask(with: &lt;#request#&gt;){ (data, response, error) in
+    &lt;#code#&gt;
+}
+task.resume()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B03099E0-1094-412E-BE86-5AC1BDB07315</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift HTTP Request With Delegate set</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift URLSession With Delegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
