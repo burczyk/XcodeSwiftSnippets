@@ -15,14 +15,18 @@
         if MFMessageComposeViewController.canSendText() {
             let messageComposeVC = MFMessageComposeViewController()
 
-            messageComposeVC.messageComposeDelegate = self
+            messageComposeVC.messageComposeDelegate = &lt;#delegate#&gt;
             messageComposeVC.body = "&lt;#body#&gt;"
             messageComposeVC.recipients = [&lt;#recipients#&gt;]
 
             present(messageComposeVC, animated: animated, completion: nil)
 
         } else {
-            UIAlertView(title: NSLocalizedString("Error", value: "Error", comment: ""), message: NSLocalizedString("Your device doesn't support messaging", value: "Your device doesn't support messaging", comment: ""), delegate: nil, cancelButtonTitle: NSLocalizedString("OK", value: "OK", comment: "")).show()
+            let alert = UIAlertController(title: NSLocalizedString("Error", value: "Error", comment: ""),
+                              message: NSLocalizedString("Your device doesn't support messaging", value: "Your device doesn't support  messaging", comment: ""),
+                              preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: "Cancel"), style: .cancel, handler: nil))
+            present(alert, animated: true, completion: nil)
         }
     }
 

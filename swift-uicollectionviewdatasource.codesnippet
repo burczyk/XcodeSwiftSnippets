@@ -32,7 +32,7 @@
         }
 
         func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -&gt; UICollectionReusableView {
-            let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: &lt;#identifier#&gt;, for: indexPath) as UIView
+            let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: &lt;#identifier#&gt;, for: indexPath)
             return view
         }</string>
 	<key>IDECodeSnippetIdentifier</key>

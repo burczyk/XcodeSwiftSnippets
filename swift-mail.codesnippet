@@ -14,7 +14,7 @@
     func presentModalMailComposerViewController(animated: Bool) {
         if MFMailComposeViewController.canSendMail() {
             let mailComposeVC = MFMailComposeViewController()
-            mailComposeVC.delegate = self
+            mailComposeVC.delegate = &lt;#delegate#&gt;
 
             mailComposeVC.setSubject(&lt;#subject#&gt;)
             mailComposeVC.setMessageBody(&lt;#body#&gt;, isHTML: true)
@@ -22,7 +22,11 @@
 
             present(mailComposeVC, animated: animated, completion: nil)
         } else {
-            UIAlertView(title: NSLocalizedString("Error", value: "Error", comment: ""), message: NSLocalizedString("Your device doesn't support Mail messaging", value: "Your device doesn't support Mail messaging", comment: ""), delegate: nil, cancelButtonTitle: NSLocalizedString("OK", value: "OK", comment: "")).show()
+            let alert = UIAlertController(title: NSLocalizedString("Error", value: "Error", comment: ""),
+                              message: NSLocalizedString("Your device doesn't support Mail messaging", value: "Your device doesn't support Mail messaging", comment: ""),
+                              preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: "Cancel"), style: .cancel, handler: nil))
+            present(alert, animated: true, completion: nil)
         }
     }
 
