@@ -60,6 +60,8 @@ swift-iba                            Create IBAction method stub
 swift-uicollectionviewdatasource     UICollectionViewDataSource snippet for Swift
 swift-singleton                      Singleton pattern for Swift
 swift-uitableviewdatasource          UITableViewDataSource snippet for Swift
+swift-uiapplicationdelegate          Commonly used app life cycle methods
+swift-elegantmark                    Decorates mark statements and makes it neat when looking through items in File Jump Bar
 ```
 
 

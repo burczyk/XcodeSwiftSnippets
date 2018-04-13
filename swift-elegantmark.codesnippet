@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-elegantmark</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+////////////////////////////////////////////////////////////////
+//MARK:-
+//MARK:&lt;#Section#&gt;
+//MARK:-
+////////////////////////////////////////////////////////////////
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>76C4B4B4-1F7D-41D8-9CE2-0E4E36C668D0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Decorates mark statements and makes it neat when looking through items in File Jump Bar</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Elegant Mark</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
