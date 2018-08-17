@@ -2,25 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-uialertcontroller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>let alert = UIAlertController(title: &lt;#title#&gt;, message: &lt;#message#&gt;, preferredStyle: .alert)
-			alert.addAction(UIAlertAction(title: "", style: .default, handler: { (action) in
-			  alert.dismiss(animated: &lt;#Bool#&gt;, completion: {
-			    &lt;#code#&gt;
-			  })
-	}))
+            alert.addAction(UIAlertAction(title: "", style: .default, handler: { (action) in
+              alert.dismiss(animated: &lt;#Bool#&gt;, completion: {
+                &lt;#code#&gt;
+              })
+    }))
   
-	presentViewController(alert, animated: true, completion: nil)</string>
+    presentViewController(alert, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3141D76F-5123-4B60-8D39-8AD76BF37BF4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Present a UIAlertController</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>Swift - UIAlertController</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
